@@ -1,0 +1,8 @@
+﻿samsung.com
+samsungapps.com
+fota-cloud-dn.ospserver.net
+fota-cloud-dn.ospserver.net.edgesuite.net
+samsung-fotagw.app.samsung.com
+samsung-fotaservice.com
+update.samsungmobile.com
+ospserver.net

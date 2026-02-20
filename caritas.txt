@@ -1,0 +1,5 @@
+gorilla.caritas-im-norden.de
+cdn.microsoft.com
+azureedge.net
+adobe.com
+*.adobe.com
