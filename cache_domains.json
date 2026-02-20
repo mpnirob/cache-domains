@@ -128,9 +128,26 @@
       "domain_files": ["windowsupdates.txt"]
     },
     {
+  "name": "playstore",
+  "domains": "playstore.txt"
+},
+{
+  "name": "samsung",
+  "domains": "samsung.txt"
+},
+{
+  "name": "caritas",
+  "domains": "caritas.txt"
+},
+{
+  "name": "windowsupdates-extra",
+  "domains": "windowsupdates.txt"
+}
+    {
       "name": "xboxlive",
       "description": "CDN for Xbox Live",
       "domain_files": ["xboxlive.txt"]
     }
+    
   ]
 }
