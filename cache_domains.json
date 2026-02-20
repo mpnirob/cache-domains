@@ -47,7 +47,7 @@
     },
     {
       "name": "nexusmods",
-      "description": "CDN for Nexus Mods/Skyrim content",
+      "description": "CDN for Nexus Mods",
       "domain_files": ["nexusmods.txt"]
     },
     {
@@ -58,7 +58,6 @@
     {
       "name": "origin",
       "description": "CDN for Origin",
-      "notes": "Should be enabled for HTTP traffic only or with a HTTPS proxy else origin client download fails",
       "mixed_content": true,
       "domain_files": ["origin.txt"]
     },
@@ -104,7 +103,7 @@
     },
     {
       "name": "test",
-      "description": "CDN for Testing, recommended to enable for additional diagnostics",
+      "description": "Testing CDN",
       "domain_files": ["test.txt"]
     },
     {
@@ -124,30 +123,33 @@
     },
     {
       "name": "wsus",
-      "description": "CDN for Windows Updates",
+      "description": "Windows Updates",
       "domain_files": ["windowsupdates.txt"]
     },
     {
-  "name": "playstore",
-  "domains": "playstore.txt"
-},
-{
-  "name": "samsung",
-  "domains": "samsung.txt"
-},
-{
-  "name": "caritas",
-  "domains": "caritas.txt"
-},
-{
-  "name": "windowsupdates-extra",
-  "domains": "windowsupdates.txt"
-}
+      "name": "playstore",
+      "description": "Google Play Store",
+      "domain_files": ["playstore.txt"]
+    },
+    {
+      "name": "samsung",
+      "description": "Samsung Updates",
+      "domain_files": ["samsung.txt"]
+    },
+    {
+      "name": "caritas",
+      "description": "Caritas CDN",
+      "domain_files": ["caritas.txt"]
+    },
+    {
+      "name": "windowsupdates-extra",
+      "description": "Extra Windows Updates",
+      "domain_files": ["windowsupdates.txt"]
+    },
     {
       "name": "xboxlive",
-      "description": "CDN for Xbox Live",
+      "description": "Xbox Live",
       "domain_files": ["xboxlive.txt"]
     }
-    
   ]
 }
